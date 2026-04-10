@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/38ada75b6f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="main-page-container">
+    <header>
+      <div class="header-wrap layout-width">
+        <h1>
+          CACTUS CLUB CAFE
+        </h1>
+        <div class="btns-wrap">
+          <a class="home-btn">
+            HOME 
+          </a>
+          <a class="cheif-special-btn" href="./cheif_special.html">
+            CHEF'S SPECIAL
+          </a>
+          <a class="own-menu-btn" href="./own_menu.html">
+            OWN MENU
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section id="main-page-section">
+      <div class="video-container"">
+        <video autoplay muted loop>
+          <source src=" ./CactusClubCafe.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="main-content-container">
+        <h2>Elevated Everyday<br>Dining</h2>
+        <div class="btns-wrap">
+          <a class="cheif-special-btn" href="./cheif_special.html">
+            CHEF'S SPECIAL
+          </a>
+          <a class="own-menu-btn" href="./own_menu.html">
+            OWN MENU
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="footer-wrap layout-width">© Hoyeon and Jiwoo. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <div id="modalContainer" class="active">
+    <div class="modal-content-container">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Welcome to the official website of Cactus Club Cafe. We are excited to have you here!</h2>
+        </div>
+        <div class="modal-body">
+          We believe that food is a important things that gives joy to life. Our cafe will provide the best service and best food that you want to eat. We hope we can give joy to our customers with our food and service.
+        </div>
+
+        <div class="modal-body">
+          Our cafe's menu can be ordered in two ways. First, you can order the menus that you want to eat. Our cafe serves a variety of dishes, including appetizer, soup, main, side, and dessert. You can choose the menu that you want to eat and order it. However, if you would like to try something new, you can order the chef's special menu. Our chef will choose the best menu for you and serve it to you depending on your preference or allergy. 
+        </div>
+        <div class="modal-footer">
+          <button class="underline-btn" id="modalCloseBtn" style="color: black">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="addMenu.js"></script>
+</body>
+
+</html>
