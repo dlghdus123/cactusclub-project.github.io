@@ -1,0 +1,73 @@
+#own-menu-section {
+  height: 80vh;
+  overflow: scroll;
+  margin-top: 130px;
+  margin-bottom: 50px;
+  padding: 50px 20px;
+}
+
+.menu-category-title {
+  margin-bottom: 10px;
+}
+
+.menu-container {
+  border: 1px solid #c69a50;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.menu-container:has(.selected) .menu-item {
+  display: none;
+}
+
+.menu-item {
+  border: 1px solid #c69a50;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover,
+.menu-item.selected {
+  display: block !important;
+  background-color: rgba(198, 154, 80, 0.3);
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.menu-description {
+  color: #777;
+}
+
+.menu-ingredients {
+  color: #777;
+  font-size: 14px;
+}
+
+.menu-allergies {
+  color: red;
+  font-size: 14px;
+}
+
+.menu-vegan {
+  color: green;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 2px 5px;
+  border: 1px solid green;
+  font-weight: 400 !important;
+  border-radius: 5px;
+}

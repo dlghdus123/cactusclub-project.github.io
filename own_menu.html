@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cactus club cafe - Own Menu</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="own_menu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="header-wrap layout-width">
+            <h1>
+                CACTUS CLUB CAFE
+            </h1>
+            <div class="btns-wrap">
+                <a class="home-btn" href="./index.html">
+                    HOME 
+                </a>
+                <a class="cheif-special-btn" href="./cheif_special.html">
+                    CHIEF SPECIAL
+                </a>
+                <a class="own-menu-btn">
+                    OWN MENU
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="own-menu-section">
+        <h2>Make own meal</h2>
+        <div id="ownMenuContainer"></div>
+        <div>
+            <button class="underline-btn" id="ownSubmitBtn">
+                Submit
+            </button>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p class="footer-wrap layout-width">© Hoyeon and Jiwoo. All rights reserved.</p>
+    </footer>
+
+    <div id="modalContainer">
+        <div class="modal-content-container">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Own Menu</h2>
+                </div>
+                <div class="modal-body">
+                    <p id="modalText">
+                        Loading ...
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="underline-btn" id="modalCloseBtn" style="color: lightgrey">
+                        Close
+                    </button>
+                    <a class="underline-btn" href="./checkout.html">
+                        Checkout
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="addMenu.js"></script>
+    <script src="own_menu.js"></script>
+</body>
+
+</html>

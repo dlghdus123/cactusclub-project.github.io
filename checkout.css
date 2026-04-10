@@ -1,0 +1,13 @@
+#checkout-section {
+  padding-top: 300px;
+  text-align: center;
+}
+
+#checkout-section h2 {
+  padding-bottom: 50px;
+}
+
+#checkout-section .home-btn {
+  margin-top: 100px;
+  max-width: fit-content;
+}
